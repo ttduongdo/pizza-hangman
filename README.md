@@ -15,13 +15,13 @@ FOLLOW THE STEPS BELOW TO RUN THE GAME:
 4. Use the `cd` command to navigate to the directory where you downloaded the game files. For example, if you downloaded the game to the 
 /Users/dothuyduong/Downloads/pizza-hangman/ directory, you can use the following command:
 
-cd /Users/dothuyduong/Downloads/pizza-hangman/
+`cd /Users/dothuyduong/Downloads/pizza-hangman/`
 
 5. Execute the following command to start the game:
 
-python3 main.py
+`python3 main.py`
 
 The game will then start and graphic window should open. 
-You can use the graphic window to interact with the game and put your answers in the console window.
+You can use the graphic window to interact with the game and put your answers down in the console window.
 
 Author: Duong Do
