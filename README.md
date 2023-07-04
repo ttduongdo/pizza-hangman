@@ -13,7 +13,7 @@ FOLLOW THE STEPS BELOW TO RUN THE GAME:
 3. Launch a terminal or command prompt on your computer.
 
 4. Use the `cd` command to navigate to the directory where you downloaded the game files. For example, if you downloaded the game to the 
-`/Users/dothuyduong/Downloads/pizza-hangman/ directory`, you can use the following command:
+`/Users/dothuyduong/Downloads/pizza-hangman/` directory, you can use the following command:
 
 `cd /Users/dothuyduong/Downloads/pizza-hangman/`
 
