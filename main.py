@@ -1,6 +1,14 @@
 import random 
 from graphics import *
 import time 
+import keyboard
+
+def get_single_key():
+    while True:
+        event = keyboard.read_event(suppress=True)
+        if event.event_type == keyboard.KEY_DOWN:
+            return event.name
+
 
 def random_word_from_library(word_list: list) -> str:
   """Choose a random word from the word list.
@@ -110,9 +118,11 @@ def easy_game(win):
   wrong_guesses = 0
   wrong_letter = [] 
   while wrong_guesses < 6 and "-" in blank_letter:
-      user_letter = input("Enter one letter at a time: ")
-      while user_letter not in ("qwertyuiopasdfghjklzxcvbnm"):
-        user_letter = input("Enter a valid letter:")
+      user_letter = get_single_key().lower()
+      while user_letter not in "abcdefghijklmnopqrstuvwxyz":
+          print("Enter a valid letter")
+          user_letter = get_single_key().lower()
+      print(f"You entered: {user_letter}")
       if user_letter in word: 
         for i in range(len(word)):
           if user_letter == word[i]: 
