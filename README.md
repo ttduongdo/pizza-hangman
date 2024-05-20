@@ -8,7 +8,7 @@ FOLLOW THE STEPS BELOW TO RUN THE GAME:
 1. Make sure you have the latest version of Python installed in your environment.
 (You can download it from here https://www.python.org/downloads/. Choose the right version for your computer.)
 
-2. Download the game package.
+2. Download the game package at: https://github.com/ttduongdo/pizza-hangman/
 
 3. Launch a terminal or command prompt on your computer.
 
